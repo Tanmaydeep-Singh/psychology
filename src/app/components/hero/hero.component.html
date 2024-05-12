@@ -1,11 +1,12 @@
-<section class="relative h-screen bg-cover bg-center md:bg-top lg:bg-left" style="background-image: url('../../../assets/hero-section.jpg')">
+<section #heroSection class="relative h-screen bg-cover bg-center md:bg-top lg:bg-left" style="background-image: url('../../../assets/hero-section.jpg')">
     <div class="absolute inset-0 flex flex-col justify-start items-center text-white">
         <img src="../../../assets/logo.jpg" alt="Welcome Image" class="mb-8  h-32">
 
         <div class="flex flex-col md:flex-row gap-4">
-          <button class="text-3xl font-bold bg-transparent  border-white  px-6 py-3">About</button>
-          <button class="text-3xl font-bold bg-transparent  border-white  px-6 py-3">Therapy</button>
-          <button class="text-3xl font-bold bg-transparent  border-white  px-6 py-3">Contact</button>
+           
+          <button class="text-3xl font-bold bg-transparent  border-white  px-6 py-3" (click)="scrollToAbout()">About</button>
+          <button class="text-3xl font-bold bg-transparent  border-white  px-6 py-3" (click)="scrollToTherapy()">Therapy</button>
+          <button class="text-3xl font-bold bg-transparent  border-white  px-6 py-3" (click)="scrollToContact()">Contact</button>
         </div>
       </div>
   </section>
