@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'landscape': {'raw': '(orientation: landscape)'},
+      }
+    },
   },
   plugins: [ require('daisyui'),],
 }
