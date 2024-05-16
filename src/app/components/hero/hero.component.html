@@ -1,12 +1,12 @@
-<section #heroSection class="relative h-screen bg-cover bg-center md:bg-top lg:bg-left" style="background-image: url('../../../assets/hero-section.jpg')">
+<section #heroSection class="relative h-screen landscape:min-h-[555px] bg-cover bg-center md:bg-top lg:bg-left" style="background-image: url('../../../assets/hero-section.jpg')">
     <div class="absolute inset-0 flex flex-col justify-start items-center text-white">
-        <img src="../../../assets/logo.jpg" alt="Welcome Image" class="mb-8  p-3 object-scale-down max-w-[300px]  md:max-w-[525px] landscape:max-w-[350px] landscape:mb-4">
+        <img src="../../../assets/logo.jpg" alt="Welcome Image" class="mb-8  p-3 object-scale-down max-w-[300px]  sm:max-w-[525px] ">
 
-        <div class="flex flex-col landscape:flex-row md:flex-row gap-4 md:gap-52">
+        <div class="flex flex-col landscape:flex-row md:flex-row gap-4 lg:gap-52">
            
-          <button class="text-2xl inline md:text-3xl font-bold bg-transparent underline  border-white  px-6 py-2 " (click)="scrollToAbout()">About me</button>
-          <button class="text-2xl inline md:text-3xl font-bold bg-transparent underline  border-white  px-6 py-2" (click)="scrollToTherapy()">Therapy corner</button>
-          <button class="text-2xl inline md:text-3xl font-bold bg-transparent underline  border-white  px-6 py-2" (click)="scrollToContact()">Contact</button>
+          <button class="text-2xl inline sm:text-3xl font-bold bg-transparent underline  border-white  px-6 py-2 " (click)="scrollToAbout()">About me</button>
+          <button class="text-2xl inline sm:text-3xl font-bold bg-transparent underline  border-white  px-6 py-2" (click)="scrollToTherapy()">Therapy corner</button>
+          <button class="text-2xl inline sm:text-3xl font-bold bg-transparent underline  border-white  px-6 py-2" (click)="scrollToContact()">Contact</button>
         </div>
       </div>
   </section>
