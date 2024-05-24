@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'daisyui/dist/full.css';
 
-   
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .text-start {
+        text-align: justify;
+    }
+}
